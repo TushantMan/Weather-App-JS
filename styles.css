@@ -43,6 +43,7 @@ body {
   border-radius: 10px;
   padding: 0 10px;
   text-align: center;
+  resize: none;
 }
 ::placeholder {
   color: #000000;
