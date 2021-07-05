@@ -89,5 +89,9 @@ function showWeatherReport(weather) {
     document.body.style.backgroundImage = "url('images/snow.jpg')";
   } else if (weatherType.textContent == "Thunderstorm") {
     document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
+  } else if (weatherType.textContent == "Mist") {
+    document.body.style.backgroundImage = "url('images/mist.jpg')";
+  } else if (weatherType.textContent == "Drizzle") {
+    document.body.style.backgroundImage = "url('images/rain.jpg')";
   }
 }
